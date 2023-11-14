@@ -1,0 +1,54 @@
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    padding: 35px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+section{
+    background-color: gray;
+    display: -webkit-flex;
+    display: flex;
+
+}
+nav{
+    background-color: orange;
+    -webkit-flex:1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 25px;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+article{
+    -webkit-flex:3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 25px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+
+}
+footer{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+@media (max-width:600px){
+    section{
+        -webkit-flex-direction:column;
+        flex-direction: column;
+    }
+}

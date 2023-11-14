@@ -1,0 +1,17 @@
+:root {
+    --background: #ccc;
+   }
+   
+   div {
+    width: 20em;
+    height: 20em;
+    margin: 1em auto;
+    background: var(--background);
+   }
+   
+   h1 {
+    display: block;
+    width: 10em;
+    margin: 1em auto;
+    background: var(--background);
+   }
